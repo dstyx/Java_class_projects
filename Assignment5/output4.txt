@@ -1,0 +1,290 @@
+Choice		Action
+------		------
+A		Add BankAccount
+C		Make Credit
+D		Make Debit
+I		Apply Monthly Interest
+L		List BankAccounts
+Q		Quit
+T		Transfer Fund
+?		Display Help
+
+What action would you like to perform?
+Please enter some account information to add:
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3200.40
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+What action would you like to perform?
+Please enter some account information to add:
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3200.40
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	5020.36
+Interest rate	:	0.01
+
+What action would you like to perform?
+Please enter some account information to add:
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3200.40
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	5020.36
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	6045.35
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+What action would you like to perform?
+Please enter some account information to add:
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3200.40
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	5020.36
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	6045.35
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+
+Account type	:	Creditcard
+Account ID	:	credit143
+Balance		:	-100.00
+Interest rate	:	0.20
+Credit limit	:	600.00
+
+What action would you like to perform?
+Account number to make credit:
+Amount (in pennies) to make credit:
+credit performed
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3200.40
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	5020.36
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	7045.35
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+
+Account type	:	Creditcard
+Account ID	:	credit143
+Balance		:	-100.00
+Interest rate	:	0.20
+Credit limit	:	600.00
+
+What action would you like to perform?
+Account number to make debit:
+Amount (in pennies) to make debit:
+debit performed
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3200.40
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	2990.36
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	7045.35
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+
+Account type	:	Creditcard
+Account ID	:	credit143
+Balance		:	-100.00
+Interest rate	:	0.20
+Credit limit	:	600.00
+
+What action would you like to perform?
+monthly interest applied
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3328.41
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	3020.26
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	7256.71
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+
+Account type	:	Creditcard
+Account ID	:	credit143
+Balance		:	-120.00
+Interest rate	:	0.20
+Credit limit	:	600.00
+
+What action would you like to perform?
+Account number to transfer funds FROM - 
+Account number to transfer funds TO - 
+Amount (in pennies) to transfer:
+transfer performed
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3328.41
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	3320.26
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	6956.71
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+
+Account type	:	Creditcard
+Account ID	:	credit143
+Balance		:	-120.00
+Interest rate	:	0.20
+Credit limit	:	600.00
+
+What action would you like to perform?
+Please enter some account information to add:
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3328.41
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	3320.26
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	6956.71
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+
+Account type	:	Creditcard
+Account ID	:	credit143
+Balance		:	-120.00
+Interest rate	:	0.20
+Credit limit	:	600.00
+
+
+Account type	:	Savings
+Account ID	:	account301
+Balance		:	2500.60
+Interest rate	:	0.02
+
+What action would you like to perform?
+monthly interest applied
+What action would you like to perform?
+
+Account type	:	Checking
+Account ID	:	checking45
+Balance		:	3461.54
+Interest rate	:	0.04
+Overdraft fee	:	25.00
+
+
+Account type	:	Savings
+Account ID	:	account200
+Balance		:	3353.46
+Interest rate	:	0.01
+
+
+Account type	:	Checking
+Account ID	:	check5012
+Balance		:	7165.41
+Interest rate	:	0.03
+Overdraft fee	:	21.00
+
+
+Account type	:	Creditcard
+Account ID	:	credit143
+Balance		:	-144.00
+Interest rate	:	0.20
+Credit limit	:	600.00
+
+
+Account type	:	Savings
+Account ID	:	account301
+Balance		:	2550.61
+Interest rate	:	0.02
+
+What action would you like to perform?

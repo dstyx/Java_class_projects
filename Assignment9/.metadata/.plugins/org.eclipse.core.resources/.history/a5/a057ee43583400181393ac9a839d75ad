@@ -1,0 +1,131 @@
+// Assignment #: 7
+//         Name: Dean Styx
+//    StudentID: 1208950336
+//      Lecture: Tues-Thurs 1030-1145
+//Class Description: This is a recursive class that willcall upon itself to do the following
+
+//begin importing java packages
+import java.io.*;
+import java.util.*;
+
+
+//end importing
+
+public class Assignment9 {//start of assignment 9
+
+	public static void main(String[] args) throws IOException {//begin main method
+		//begin initialization of variables to be used 
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		String in;
+				
+		//int []arr = new int[100];
+		ArrayList<Integer> arr = new ArrayList<Integer>;
+		
+		
+		//end declaring variables
+		
+		for(int i = 0; i<100; i++) {//begin entering the values into the array for loop
+			in = reader.readLine();
+			arr[i] = Integer.parseInt(in);
+			if(arr[i] == 0){
+				break;
+			}
+		}//end for loop to load up array
+		//set up variable length thing
+		int size = arr.length -1;// this will have the index number of the last index
+		
+		
+		
+		//begin to string lines
+		System.out.println("The minimum number is "+ findMin(arr, 0, size));
+		System.out.println("The largest integer that is divisible by 2 is "+ computeMaxDivisibleBy2(arr, 0, size));
+		System.out.println("The count of even numbers in the sequence is "+ countEvenNumbers(arr,0,size));
+		System.out.println("The sum of numbers at indexes divisible by 3 is "+ computeSumOfNumbersAtIndexDivisibleBy3(arr, 0, size));
+		//end of too string lines
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+	 
+	
+	
+	public static int findMin(int[] numbers, int startIndex,int endIndex) {
+		
+		int first = numbers[startIndex];
+		int second = numbers[endIndex];
+		 
+		if(startIndex != endIndex) {//this will cycle through all numbers in the array 
+			second = findMin(numbers , startIndex+1, endIndex);
+		}
+		if(first<second) {//if the first value is less than the second it will return the first, comparing each pair until it reaches the end
+			return first;
+		}
+		else
+			return second;
+		
+	}
+			
+	public static int computeMaxDivisibleBy2(int[] elements, int startIndex, int endIndex) {//this is basically the reverse of the previous class only this tme an extra condition to change the max value
+		int first = elements[startIndex];
+		int second = elements[endIndex];
+		int max = 0;
+		
+		
+		if(startIndex != endIndex) {// cycle through all numbers in the array
+			second = computeMaxDivisibleBy2(elements, startIndex+1, endIndex);
+		}//each will call the next in the index line until they are the same
+		
+		if(first>second && first%2 == 0)// if the first value is greater than the second and is divisible by 2 make first new max value to return
+			max = first;
+	
+		if(second>first && second%2 ==0)//if the second value is greater than the first and is divisible by 2 make second new max value to return 
+			max = second;
+		
+		
+		
+		return max;
+	}
+	
+	
+	public static int countEvenNumbers(int[] elements, int startIndex, int endIndex) {
+		int count=0; // count is the number of even numbers, starts at 0 for every instance of this class
+		
+		int number = elements[startIndex];// number is the number to compare to count
+		
+		if(startIndex != endIndex) {// cycle through all numbers in the array and add one for every time there's an even number
+			count = countEvenNumbers(elements, startIndex+1, endIndex);
+		}
+		
+		count++;
+		
+	
+		return count;// return the value of count
+		
+	}
+	
+	
+	public static int computeSumOfNumbersAtIndexDivisibleBy3(int[] elements, int startIndex, int endIndex) {
+		int sum = 0;
+		if(startIndex != endIndex) {
+			sum = sum + computeSumOfNumbersAtIndexDivisibleBy3(elements, startIndex+1,endIndex);// will add the return value of number at index divisible by 3
+		}
+		
+		if(startIndex%3 == 0) {
+			sum = sum + elements[startIndex];// will add this value of the index to the sum if index is divisible by 3
+		}
+		
+
+		
+		
+		return sum;
+	}
+
+}//end of assignment 9

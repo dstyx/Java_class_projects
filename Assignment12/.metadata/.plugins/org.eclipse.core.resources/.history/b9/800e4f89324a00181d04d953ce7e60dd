@@ -1,0 +1,38 @@
+// Assignment #: 12
+//         Name: Dean Styx
+//    StudentID: 1208950336
+//      Lecture: Tues-Thurs 10:30-1145
+//  Description: 
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.event.*;
+
+
+public class Dot {
+
+	private Color color;
+	private int x, y;
+	private int RADIUS = 3;
+	
+	
+	public Dot(int x1, int y1, Color color1) {
+		
+		color = color1;
+		x = x1;
+		y = y1;
+	
+	}
+	
+	
+	public void draw(Graphics page) {
+		page.fillOval(x, y, RADIUS, RADIUS);
+	}
+	
+	
+	
+	
+	
+	
+}
